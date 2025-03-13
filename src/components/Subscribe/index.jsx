@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../assets/subscribe.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { IoLogoWhatsapp } from 'react-icons/io';
+
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -26,14 +26,14 @@ const Subscribe = () => {
           </h1>
           <div data-aos="fade-up" className="w-full">
       <a
-        href="https://shopee.co.id/" // Ganti dengan link toko Shopee kamu
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-800 transition-all duration-300"
-      >
-        <FontAwesomeIcon icon={faWhatsapp} className="text-2xl text-green-500" />
-        <span>Kunjungi Whatsapp Kami</span>
-      </a>
+      href="https://shopee.co.id/" // Ganti dengan link toko Shopee kamu
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-800 transition-all duration-300"
+    >
+      <IoLogoWhatsapp className="text-2xl text-green-500" />
+      <span>Kunjungi Whatsapp Kami</span>
+    </a>
     </div>
         </div>
       </div>
